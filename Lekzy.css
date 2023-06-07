@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to bottom left, rgb(163, 163, 220), rgb(238, 187, 195), rgb(163, 163, 220));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.container{
+    width: 30%;
+    height: 65vh;
+    text-align: center;
+    background-color: rgba(156, 156, 156, .3);
+    box-shadow: 6px 10px 10px rgba(156, 156, 156, .8);
+}
+h1{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(103, 100, 100);
+    margin-top: 60px;
+    text-shadow: 0px 6px 10px rgba(31, 32, 32, 0.7);
+    cursor: pointer;
+}
+.Email{
+    width: 60%;
+    height: 40px;
+    background-color: rgba(156, 156, 156, .3);
+    margin-top: 10px;
+    border: rgba(156, 156, 156, .3);
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(45, 44, 44);
+    padding-left: 10px;
+}
+.Password{
+    width: 60%;
+    height: 40px;
+    background-color: rgba(156, 156, 156, .3);
+    margin-top: 20px;
+    border: rgba(156, 156, 156, .3);
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(45, 44, 44);
+    padding-left: 10px;
+}
+::placeholder{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(45, 44, 44);
+}
+.Limit{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(45, 44, 44);
+}
+p{
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.btn1{
+    width: 60%;
+    height: 40px;
+    background-color: rgba(156, 156, 156, .3);
+    box-shadow: 0px 6px 10px rgba(44, 45, 44, .3);
+    border: rgba(156, 156, 156, .3);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 60px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn1:hover{
+    background-color:  rgba(156, 156, 156, .7);
+    transition: 0.5ms ease-in-out;
+    color: rgb(45, 44, 44);
+}
+.Timzy{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;   
+    margin-top: 25px;  
+}

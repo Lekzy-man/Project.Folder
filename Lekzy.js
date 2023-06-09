@@ -29,7 +29,7 @@ function Kemisola(){
        }, 2500)
     }    
 else{
-    window.location.assign("Dammylola.html")
+    window.location.assign("Game.html")
 }
 
    if(PasswordInput.value === ""){
@@ -39,6 +39,6 @@ else{
    }, 2500)
 }
 else{
-    window.location.assign("Dammylola.html")
+    window.location.assign("Game.html")
 }       
 }

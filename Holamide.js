@@ -15,7 +15,7 @@ async function Remotecontrol(){
         await sleep(2000)
          TextInput.innerText = "Your Registration is Successful!"
         await sleep(2000)
-        window.location.assign("Lekzy.html")
+        window.location.assign("index.html")
       }
       else{
       }
@@ -23,7 +23,7 @@ async function Remotecontrol(){
         await sleep(2000)
         TextInput.innerText = "Your Registration is Successful!"
         await sleep(2000)
-       window.location.assign("Lekzy.html")
+       window.location.assign("index.html")
     }
     else{
      }
@@ -31,7 +31,7 @@ async function Remotecontrol(){
        await sleep(2000)
         TextInput.innerText = "Your Registration is Successful!"
         await sleep(2000)
-        window.location.assign("Lekzy.html")
+        window.location.assign("index.html")
     }
     else{
    }
@@ -39,7 +39,7 @@ async function Remotecontrol(){
         await sleep(2000)
        TextInput.innerText = "Your Registration is Successful!"
        await sleep(2000)
-        window.location.assign("Lekzy.html")
+        window.location.assign("index.html")
     }
     else{   
     }
@@ -47,7 +47,7 @@ async function Remotecontrol(){
         await sleep(2000)
         TextInput.innerText = "Your Registration is Successful!" 
         await sleep(2000)
-        window.location.assign("Lekzy.html")
+        window.location.assign("index.html")
     }
     else{    
     }
@@ -55,7 +55,7 @@ async function Remotecontrol(){
         await sleep(2000)
         TextInput.innerText = "Your Registration is Successful!"
         await sleep(2000)
-       window.location.assign("Lekzy.html")
+       window.location.assign("index.html")
     }
     else{   
     }

@@ -15,12 +15,12 @@ let testimony = {
 const LEKZY = testimony["Lekzy"];
 const OPPONENET = testimony["Opponent"];
 const CARDSMAP = testimony["cardsMap"];
-const LekzySound = new Audio("/Audio/standardlamp switch.mp3");
-const OpponentSound = new Audio("/Audio/card drop 2.mp3");
-const ReturnSound = new Audio("/Audio/pan 1.mp3")
-const winsSound = new Audio("/Audio/clap1.mp3");
-const LoseSound = new Audio("/Audio/pan 1.mp3");
-const DrawSound = new Audio("/Audio/computer beep.mp3")
+const LekzySound = new Audio("/Player/standardlamp switch.mp3");
+const OpponentSound = new Audio("/Player/card drop 2.mp3");
+const ReturnSound = new Audio("/Player/pan 1.mp3")
+const winsSound = new Audio("/Player/clap1.mp3");
+const LoseSound = new Audio("/Player/pan 1.mp3");
+const DrawSound = new Audio("/Player/computer beep.mp3")
 document.querySelector("#Lekan-button").addEventListener("click", Achiever);
 document.querySelector("#Return-button").addEventListener("click", Returning);
 document.querySelector("#Opponent-button").addEventListener("click", opponentset);
@@ -44,7 +44,7 @@ async function Achiever(){
 }
 function relax(card, selection){
     images = document.createElement("img");
-    images.src = `/images/${card}`;
+    images.src = `/Images/${card}`;
     document.querySelector(selection["div"]).appendChild(images)
 }
 function Random(){
